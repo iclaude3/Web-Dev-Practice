@@ -21,7 +21,7 @@ Here's a sample of my Landing Page:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-###Landing Page
+### Landing Page
 Using bootstrap and flexbox to move the elements on the page to the desired position was a bit of a challenge, but made the task easier than it would have been without these tools.
 
 ## License
