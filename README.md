@@ -10,18 +10,18 @@ Time spent: **2** hours spent in total
 
 The following **practice** projects have been created:
 
-* [ ] **Landing Page**
+* [x] **Landing Page**
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a sample of my Landing Page:
 
 <img src='LandingPage/sample.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
+###Landing Page
 Using bootstrap and flexbox to move the elements on the page to the desired position was a bit of a challenge, but made the task easier than it would have been without these tools.
 
 ## License
