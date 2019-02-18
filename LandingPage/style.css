@@ -8,22 +8,33 @@ body {
   font-family: 'Montserrat', sans-serif;  
 }
 
+p {
+	color: #FFFFFF;
+}
+
 header.startup {
 	display: flex;
 	align-items: center;
-	background-image: url("nature.jpg");
+	background-image: url("NewYork.jpg");
 	background-position: center;
 	background-size: cover;
 	height: 100%;
 }
 
 .btn {
-	margin-top: 180px;
+	margin-top: 150px;
     border-radius: 23px;
     font-family: 'Montserrat', sans-serif;  	
 }
 
-.btn-danger:hover {
+.btn-primary {
+	background-color: #DC00C9;
+	border-color: #DC00C9;
+}
+
+.btn-primary:hover {
+	background-color: #A11B96;
+	border-color: #A11B96;
 	border-width: 5px;
 	cursor: pointer;
 	font-size: 1.5em;
