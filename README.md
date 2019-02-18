@@ -16,7 +16,7 @@ The following **practice** projects have been created:
 
 Here's a sample of my Landing Page:
 
-<img src='LandingPage/sample.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='landingPageWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
