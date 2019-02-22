@@ -1,10 +1,10 @@
 body {
-    /*to remove browser css*/
-    margin: auto 0;
+    margin: 0 auto;
     font-family: Arial;
 }
 
 .zone {
+    /*padding:30px 50px;*/
     cursor:pointer;
     color:#FFF;
     font-size:2em;
@@ -20,23 +20,16 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
-
-/*NAV*/
-.sticky {
-    top: 0;
-    position: fixed;
-    width: 100%;
-}
-
+/***********************************************************************
+ *  Nav Bar
+ **********************************************************************/
 .main-nav {
     display: flex;
     list-style: none;
-    font-size: 0.7em;
     margin: 0;
+    font-size: 0.7em;
 }
 
-/* properties to apply when screen width is less than 
- * or eaqual to 600px. This is a media query*/
 @media only screen and (max-width: 600px) {
     .main-nav {
         font-size: 0.5em;
@@ -57,30 +50,34 @@ a {
     text-decoration: none;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-/*COVER*/
+/***********************************************************************
+ *  Cover
+ **********************************************************************/
 .container {
+    /*show heigh: auto*/
+    height: 70vh; 
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 70vh; /*viewport height makes things responsive when it comes to height. makes sure there is always 50% of our viewport dedicated to our cover*/
 }
 
 .cover {
-    width: 20rem;
+    width: 30rem;
 }
 
-
-/*PROJECT GRID*/
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
 .grid-wrapper {
     display: grid;
-    grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
-
-.box > img {
-    /*for images that are a child of the box class*/
-    width: 100%;
+    grid-gap: 20px;
 }
 
 .box {
@@ -89,25 +86,35 @@ a {
     margin: 20px;
 }
 
-.box:hover {
-    -webkit-transform:rotate(-7deg);
-    -moz-transform:rotate(-7deg);
-    -o-transform:rotate(-7deg);
-    transform:rotate(-7deg);
+.box > img {
+    width: 100%;
 }
 
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.box > img {
+    width: 100%;
+    height: auto;
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
 footer {
     text-align: center;
+    background-color: #444;
 }
-
-
-
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
 /***********************************************************************
  *  Green Background
  **********************************************************************/
-.green{
+.green {
     background: #56B870; /* Old browsers */
     background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
@@ -120,7 +127,7 @@ footer {
 /***********************************************************************
  *  Red Background
  **********************************************************************/
-.red{
+.red {
     background: #C655BE; /* Old browsers */
     background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
@@ -133,7 +140,7 @@ footer {
 /***********************************************************************
  *  Yellow Background
  **********************************************************************/
-.yellow{
+.yellow {
     background: #F3AAAA; /* Old browsers */
     background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
@@ -146,7 +153,7 @@ footer {
 /***********************************************************************
  *  Blue Background
  **********************************************************************/
-.blue{
+.blue {
     background: #7abcff; /* Old browsers */
     background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
